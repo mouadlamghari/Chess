@@ -1,0 +1,27 @@
+.transforming{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    width: 80%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow: hidden;
+    /* box-shadow: -30px -30px 50px  #d4d2d2,30px 20px 50px #d4d2d2; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    gap: 5px;
+}
+.transforming .item{
+    flex: 1;
+    cursor: pointer;
+}
+.transforming .item:hover{
+    background-color: #454242;
+}
+.transforming .item img{
+    object-fit: contain;
+    width: 100%;
+}
