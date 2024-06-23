@@ -7,6 +7,7 @@ import Chose from './Pages/Chose'
 const Home = () => {
   return (
     <div>
+      MOUAD LAMGHARI
     <Routes>
         <Route path='/' element={<Chose/>} />
         <Route path='/playWithFriend' element={<PlayWithFriend/>} />
