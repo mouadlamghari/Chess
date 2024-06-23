@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, HashRouter as Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import PlayWithFriend from './Pages/PlayWithFriend'
 import Chose from './Pages/Chose'
 
