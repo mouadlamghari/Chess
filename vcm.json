@@ -3,7 +3,7 @@
   "installCommand":"npm install",
   "routes":[
     {
-      "src": "/[^.]+",
+      "src": "\/([^.]*)",
       "dest": "/index.html"
     }
   ]
