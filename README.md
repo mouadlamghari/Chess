@@ -1,3 +1,3 @@
 
 # Chess
- <a id='http://xhog.infinitehost.online/'>visit the website</a>
+ <a href='http://xhog.infinitehost.online/'>visit the website</a>
